@@ -1,0 +1,29 @@
+{
+  "name": "react-flux-dev-environment",
+  "version": "1.0.0",
+  "description": "A React dev environment with Flux architecture using Browserify",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router-component": "^0.27.2",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twomoonsfactory/react-flux-dev-environment.git"
+  },
+  "author": "AJ Larson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twomoonsfactory/react-flux-dev-environment/issues"
+  },
+  "homepage": "https://github.com/twomoonsfactory/react-flux-dev-environment#readme"
+}
