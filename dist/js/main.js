@@ -19012,18 +19012,30 @@ module.exports = warning;
 module.exports = require('./lib/React');
 
 },{"./lib/React":25}],158:[function(require,module,exports){
+'use strict';
+
 var React = require('react');
 
-var App = React.createClass({displayName: "App",
-  render:function(){
-    return React.createElement("h1", null, "My Flux App")
+var App = React.createClass({
+  displayName: 'App',
+
+  render: function render() {
+    return React.createElement(
+      'h1',
+      null,
+      'My Flux App'
+    );
   }
 });
 
 module.exports = App;
+
 },{"react":157}],159:[function(require,module,exports){
+'use strict';
+
 var App = require('./components/app');
 var React = require('react');
 
 React.render(React.createElement(App, null), document.getElementById('main'));
+
 },{"./components/app":158,"react":157}]},{},[159]);
